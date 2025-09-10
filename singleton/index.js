@@ -1,4 +1,3 @@
-// Classe Logger
 class Logger {
   constructor() {
     if (Logger.instance) {
