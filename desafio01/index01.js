@@ -68,8 +68,8 @@ class LanchoneteDirector {
     }
 }
 
-const lancheSimples = LanchoneteDirector.fazerXSalada();
-const lancheCompleto = LanchoneteDirector.fazerXTudo();
+const lancheSimples = LanchoneteDirector.lancheSimples();
+const lancheCompleto = LanchoneteDirector.lancheCompleto();
 
 lancheSimples.show();
 lancheCompleto.show();
