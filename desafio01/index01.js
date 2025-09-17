@@ -47,6 +47,10 @@ class LancheBuilder {
         this.lanche.molho = tipo;
         return this;
     }
+
+    build() {
+        return this.lanche;
+    }
 }
   
 class LanchoneteDirector {
